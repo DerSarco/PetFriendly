@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/item_store_height"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:id="@+id/ivStorePhoto"
+        android:layout_width="144dp"
+        android:layout_height="144dp"
+        android:layout_marginStart="@dimen/common_min_padding"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@drawable/ic_launcher_background"
+        />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvStoreTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/common_min_padding"
+        app:layout_constraintStart_toEndOf="@id/ivStorePhoto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/ivStorePhoto"
+        android:textAppearance="?attr/textAppearanceHeadline6"
+        android:textAlignment="center"
+        tools:text="Nombre de la tienda"
+        />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvStoreDescription"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/common_min_padding"
+        android:layout_marginHorizontal="@dimen/common_min_padding"
+        app:layout_constraintStart_toEndOf="@id/ivStorePhoto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvStoreTitle"
+        android:textAppearance="?attr/textAppearanceSubtitle2"
+        android:maxLines="6"
+        android:ellipsize="end"
+
+        tools:text="@string/lorem"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
