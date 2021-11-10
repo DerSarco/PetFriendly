@@ -7,8 +7,9 @@ import android.view.View
 import android.view.ViewGroup
 import com.sarco.petfriendly.R
 import com.sarco.petfriendly.databinding.FragmentEditBinding
+import com.sarco.petfriendly.editModule.adapter.SpinnerAdapter
 
-class EditFragment : Fragment() {
+class EditFragment : Fragment(){
 
     private lateinit var mBinding: FragmentEditBinding
 
@@ -17,7 +18,13 @@ class EditFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         mBinding = FragmentEditBinding.inflate(inflater, container, false)
+        setupSpinner()
         return mBinding.root
+    }
+
+    private fun setupSpinner() {
+        val spinner = mBinding.spinnerCountry
+        SpinnerAdapter().arrayAdapter(spinner, this.requireContext())
     }
 
 }

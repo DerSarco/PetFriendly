@@ -18,7 +18,6 @@ class HomeFragment : Fragment(), OnClickListener {
 
     private lateinit var mBinding: FragmentHomeBinding
 
-    private lateinit var mFragment: Fragment
     private lateinit var mFragmentManager: FragmentManager
 
     private lateinit var mAdapter: StoresAdapter

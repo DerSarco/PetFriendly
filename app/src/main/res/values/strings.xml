@@ -5,4 +5,8 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mollis diam vitae libero gravida vestibulum vel eget mi. Aenean in nisi ut neque tempor vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque interdum velit vel orci tristique pellentesque. Maecenas lorem erat, venenatis vitae lorem non, pellentesque lacinia arcu. Suspendisse sit amet nisl finibus, scelerisque mi quis, molestie nibh. Suspendisse sed pharetra ex, non vulputate sapien. Suspendisse sed justo justo. Morbi finibus libero quis mauris interdum tincidunt vitae vel enim. Etiam eget faucibus lacus. Sed accumsan dolor a tellus vestibulum, ac dignissim nulla pulvinar. Aenean dignissim nec augue vel egestas. Donec non interdum nisl.</string>
+    <string name="hint_store_name">Nombre de tienda</string>
+    <string name="hint_store_address">Dirección</string>
+    <string name="helper_required_field">Requerido</string>
+    <string name="hint_store_country">País</string>
 </resources>
