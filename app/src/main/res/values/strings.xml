@@ -9,4 +9,5 @@
     <string name="hint_store_address">Dirección</string>
     <string name="helper_required_field">Requerido</string>
     <string name="hint_store_country">País</string>
+    <string name="dropdown_first_country">Chile</string>
 </resources>

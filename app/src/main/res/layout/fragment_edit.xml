@@ -59,15 +59,25 @@
 
         </com.google.android.material.textfield.TextInputLayout>
 
-        <Spinner
-            android:id="@+id/spinnerCountry"
-            android:elevation="@dimen/common_min_padding"
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilDropDownCountries"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            app:helperText="@string/helper_required_field"
+            android:hint="Pais"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/common_min_padding"
-            style="?attr/spinnerStyle"
+            >
 
-            />
+            <AutoCompleteTextView
+                android:id="@+id/dropDownCountries"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="none"
+                android:text="@string/dropdown_first_country"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
 
     </LinearLayout>
 

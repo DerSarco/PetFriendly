@@ -23,8 +23,9 @@ class EditFragment : Fragment(){
     }
 
     private fun setupSpinner() {
-        val spinner = mBinding.spinnerCountry
-        SpinnerAdapter().arrayAdapter(spinner, this.requireContext())
+        var dropDown = mBinding.dropDownCountries
+        val countries = resources.getStringArray(R.array.countries)
+        SpinnerAdapter().arrayAdapter(dropDown, this.requireContext(), countries)
     }
 
 }
