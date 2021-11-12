@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -32,7 +32,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:inputType="textCapWords"
-
                 />
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -79,9 +78,62 @@
 
         </com.google.android.material.textfield.TextInputLayout>
 
+        <LinearLayout
+            android:layout_marginTop="@dimen/common_min_padding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/default_common_padding"
+            android:gravity="start"
+            >
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tvPhoto"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/store_photo_add"
+                android:gravity="center"
+                android:layout_marginRight="@dimen/default_common_padding"
+                />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_insert_photo"
+                android:cropToPadding="true"
+                android:backgroundTint="@color/cardview_light_background"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_gravity="center"
+                />
+
+            <ImageView
+                android:layout_width="86dp"
+                android:layout_height="86dp"
+                android:layout_marginLeft="@dimen/default_special_padding"
+                android:layout_marginTop="@dimen/common_min_padding"
+                android:layout_marginBottom="@dimen/common_min_padding"
+                tools:src="@drawable/ic_insert_photo"
+                />
+
+        </LinearLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="188dp"
+            android:hint="@string/hint_store_comment"
+            app:helperText="@string/helper_required_field"
+            app:counterEnabled="true"
+            app:counterMaxLength="@integer/maxCommentsLength"
+            android:layout_margin="@dimen/default_common_padding"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>˘
     </LinearLayout>
-
-
-
-
-</FrameLayout>
+</ScrollView>

@@ -4,6 +4,7 @@ import android.content.Context
 import android.widget.ArrayAdapter
 import android.widget.AutoCompleteTextView
 import com.sarco.petfriendly.R
+import com.sarco.petfriendly.common.entities.StoreEntity
 
 class SpinnerAdapter() {
 

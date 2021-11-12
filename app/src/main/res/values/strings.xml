@@ -10,4 +10,9 @@
     <string name="helper_required_field">Requerido</string>
     <string name="hint_store_country">País</string>
     <string name="dropdown_first_country">Chile</string>
+    <string name="menu_save_store_text">Guardar Tienda</string>
+    <string name="title_edit">Editar Tienda</string>
+    <string name="title_create">Crear Tienda</string>
+    <string name="store_photo_add">Seleccionar Foto</string>
+    <string name="hint_store_comment">Comentarios</string>
 </resources>
