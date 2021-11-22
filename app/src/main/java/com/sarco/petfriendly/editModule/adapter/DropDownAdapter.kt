@@ -6,7 +6,7 @@ import android.widget.AutoCompleteTextView
 import com.sarco.petfriendly.R
 import com.sarco.petfriendly.common.entities.StoreEntity
 
-class SpinnerAdapter() {
+class DropDownAdapter() {
 
 
     fun arrayAdapter(dropDown: AutoCompleteTextView, context: Context, resources: Array<String>){

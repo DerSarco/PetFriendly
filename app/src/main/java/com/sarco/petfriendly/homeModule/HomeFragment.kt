@@ -55,15 +55,14 @@ class HomeFragment : Fragment(), OnClickListener {
         editFragment.arguments = bundle
         mFragmentManager.beginTransaction().replace(R.id.main_frame_layout,
             editFragment).addToBackStack(null).commit()
+        mActivity.bottomNavBar()
 
     }
 
     override fun onClick(storeEntity: StoreEntity) {
-
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        Toast.makeText(mActivity, "Opción clicakda", Toast.LENGTH_SHORT).show()
         goToEditFragment()
         return super.onOptionsItemSelected(item)
     }

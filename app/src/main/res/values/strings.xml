@@ -15,4 +15,6 @@
     <string name="title_create">Crear Tienda</string>
     <string name="store_photo_add">Seleccionar Foto</string>
     <string name="hint_store_comment">Comentarios</string>
+    <string name="btn_location">Ver Ubicación</string>
+    <string name="vote_text">Ingrese su puntuación en la a continuación</string>
 </resources>

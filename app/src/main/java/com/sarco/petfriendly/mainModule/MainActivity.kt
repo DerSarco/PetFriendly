@@ -2,6 +2,7 @@ package com.sarco.petfriendly.mainModule
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import com.sarco.petfriendly.R
@@ -52,5 +53,14 @@ class MainActivity : AppCompatActivity() {
         mFragmentManager.beginTransaction().hide(mActiveFragment).show(fragment).commit()
         mActiveFragment = fragment
         return true
+    }
+
+    fun bottomNavBar(){
+        mBinding.bottomNav.apply {
+            if(this.visibility == View.VISIBLE)
+                visibility = View.GONE
+            else visibility = View.VISIBLE
+
+        }
     }
 }

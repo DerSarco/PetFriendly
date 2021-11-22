@@ -6,9 +6,10 @@
         <entry key="app/src/main/res/drawable/ic_insert_photo.xml" value="0.21770833333333334" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1838768115942029" />
         <entry key="app/src/main/res/layout/fragment_blank.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/fragment_edit.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_edit.xml" value="0.2961260842243001" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.1838768115942029" />
         <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/item_comment.xml" value="0.375" />
         <entry key="app/src/main/res/layout/item_dropdown.xml" value="0.2966485507246377" />
         <entry key="app/src/main/res/layout/item_dropown.xml" value="0.375" />
         <entry key="app/src/main/res/layout/item_store.xml" value="0.335" />
